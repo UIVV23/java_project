@@ -33,8 +33,8 @@ public class AppTest
      */ 
 public void testeven(){
 EvenOdd ob= new EvenOdd();
-String avalue=ob.evenOdd((8));
-String evalue="8 is an odd number";
+String avalue=ob.evenOdd((9));
+String evalue="9 is an odd number";
 assertEquals(avalue,evalue);
 }
     public void testApp()
